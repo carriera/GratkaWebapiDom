@@ -1,0 +1,32 @@
+{
+    "name": "carriera/GratkaWebapiDom",
+    "description": "Zend Framework 2 Module - Gratka DOM webAPI",
+    "type": "library",
+    "keywords": [
+        "gratka",
+        "api",
+        "module",
+        "zf2"
+    ],
+    "homepage": "http://webapi.gratka.pl/",
+    "authors": [
+        {
+            "name": "Gratka.Pl",
+            "email": "webapi@gratka.pl",
+            "homepage": "http://www.gratka.pl/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.4.x-dev"
+        }
+    }
+}
